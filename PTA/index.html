@@ -62,7 +62,7 @@
     <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@main/dist/en/v7.0.0/legacy/ol.js"></script>
     <script src="./JS/ol-layerswitcher.js"></script>
 	<script type="text/javascript">
-		var boundary = [-8064517.333113, -1597810.975388, -8053376.636241, -1596205.797794];
+		var boundary = [-8064517.333113, -1597810.975388, -8053376.636241, -1591820.223296];
 
 		// Configuración de la vista del mapa
 		var vista = new ol.View({
@@ -643,7 +643,7 @@
 
 		// Agregar evento al botón
 		homeButton.addEventListener('click', function() {
-			var boundary = [-8064517.333113, -1592336.173237, -8053376.636241, -1570307.977148]; // Extent
+			var boundary = [-8064517.333113, -1597810.975388, -8053376.636241, -1591820.223296]; // Extent
 			map.getView().fit(boundary, { duration: 500 }); // Ajusta la vista suavemente en 1s
 		});
 		
