@@ -1,0 +1,197 @@
+
+/* -- BOTON DE REGLA -- */
+.measure-btn {
+	border-radius: 5px; /* Bordes redondeados */
+	font-size: 22px; /* Tamaño del icono */
+	color: white; /* Color del texto */
+	background-color: #007bff; /* Color de fondo */
+	border: 2px solid #0056b3; /* Color del borde */
+	text-align: center; /* Centrar el contenido */
+	line-height: 25px; /* Alinear verticalmente */
+	cursor: pointer; /* Cambia el cursor al pasar */
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra */
+	transition: background-color 0.3s, border-color 0.3s; /* Efecto de transición */
+	width: 35px; /* Ancho */
+	height: 35px; /* Altura */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Cambio de color al pasar el mouse */
+.measure-btn:hover {
+	background-color: #0056b3;
+	border-color: #003f7f;
+}
+
+/* Cajetilla del botón de regla */
+.measure-tooltip {
+	position: absolute;
+	background: rgba(255, 255, 255, 0.9);
+	color: black;
+	padding: 8px;
+	border-radius: 5px;
+	border: 2px solid #0056b3; /* Color del borde */
+	font-size: 12px;
+	left: 135px;
+	top: -2px;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	width: 190px; /* Ancho fijo */
+	text-align: center;
+	overflow: hidden; /* Evita que el texto desborde */
+	text-overflow: ellipsis; /* Agrega "..." si el texto es demasiado largo */
+	word-wrap: break-word; /* Asegura que el texto se mantenga dentro del contenedor */
+}
+
+/* Titulo de la cajetilla */
+.measure-title {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 1px;
+	border-bottom: 2px solid black; /* Línea pegada al texto */
+	display: inline-block;
+}
+
+/* Subtítulo de la cajetilla */
+#distance-value {
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+/* -- BOTON DE HOME -- */
+.home-btn {
+	border-radius: 5px; /* Bordes redondeados */
+	font-size: 22px; /* Tamaño del icono */
+	color: white; /* Color del texto */
+	background-color: #007bff; /* Color de fondo */
+	border: 2px solid #0056b3; /* Color del borde */
+	text-align: center; /* Centrar el contenido */
+	line-height: 25px; /* Alinear verticalmente */
+	cursor: pointer; /* Cambia el cursor al pasar */
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra */
+	transition: background-color 0.3s, border-color 0.3s; /* Efecto de transición */
+	width: 35px; /* Ancho */
+	height: 35px; /* Altura */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.home-btn:hover {
+	background-color: #0056b3;
+	border-color: #003f7f;
+}
+
+/* -- BOTON DE COORDENADAS -- */
+.fix-btn {
+	border-radius: 5px; /* Bordes redondeados */
+	font-size: 23px; /* Tamaño del icono */
+	color: white; /* Color del texto */
+	background-color: #007bff; /* Color de fondo */
+	border: 2px solid #0056b3; /* Color del borde */
+	text-align: center; /* Centrar el contenido */
+	line-height: 25px; /* Alinear verticalmente */
+	cursor: pointer; /* Cambia el cursor al pasar */
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra */
+	transition: background-color 0.3s, border-color 0.3s; /* Efecto de transición */
+	width: 35px; /* Ancho */
+	height: 35px; /* Altura */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Cambio de color al pasar el mouse */
+.fix-btn:hover {
+	background-color: #0056b3;
+	border-color: #003f7f;
+}
+
+/* Cajetilla del botón de coordenadas */
+.fix-tooltip {
+	position: absolute;
+	background: rgba(255, 255, 255, 0.9);
+	color: black;
+	padding: 8px;
+	border-radius: 5px;
+	border: 2px solid #0056b3; /* Color del borde */
+	font-size: 12px;
+	left: 135px;
+	top: -2px;
+	transform: translateX(-50%);
+	white-space: nowrap;
+	width: 190px; /* Ancho fijo */
+	text-align: center;
+	overflow: hidden; /* Evita que el texto desborde */
+	text-overflow: ellipsis; /* Agrega "..." si el texto es demasiado largo */
+	word-wrap: break-word; /* Asegura que el texto se mantenga dentro del contenedor */
+}
+
+/* Titulo de la cajetilla */
+.fix-title {
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 5px;
+	border-bottom: 2px solid black; /* Línea pegada al texto */
+	display: inline-block;
+}
+
+/* Subtítulo de la cajetilla */
+#live-coord {
+	font-size: 14px;
+	bottom: 50px;
+}
+
+#fixed-coord {
+	font-size: 14px;
+	bottom: 50px;
+}
+
+/* -- BOTON DE LEYENDA -- */
+.legend-btn {
+	border-radius: 5px; /* Bordes redondeados */
+	font-size: 23px; /* Tamaño del icono */
+	color: white; /* Color del texto */
+	background-color: #007bff; /* Color de fondo */
+	border: 2px solid #0056b3; /* Color del borde */
+	text-align: center; /* Centrar el contenido */
+	line-height: 25px; /* Alinear verticalmente */
+	cursor: pointer; /* Cambia el cursor al pasar */
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra */
+	transition: background-color 0.3s, border-color 0.3s; /* Efecto de transición */
+	width: 35px; /* Ancho */
+	height: 35px; /* Altura */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Cambio de color al pasar el mouse */
+.legend-btn:hover {
+	background-color: #0056b3;
+	border-color: #003f7f;
+}
+
+/* Cajetilla del botón de leyenda */
+.legend-tooltip {
+	position: absolute;
+	background: rgba(255, 255, 255, 0.9);
+	padding: 10px;
+	border: 2px solid #0056b3;
+	border-radius: 5px;
+	font-size: 12px;
+	left: 40px; /* Ajusta según la posición de tu botón */
+	top: -205px;
+	width: 250px;
+	box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
+}
+.legend-tooltip img {
+	display: block;
+	max-width: 100%;
+}
+.legend-tooltip p {
+	margin: 5px 0;
+	font-weight: bold;
+	color: #333;
+}
